@@ -10,8 +10,6 @@ const Page =  () => {
 
     if (!user || !user.id) redirect('/auth-callback?origin=dashboard')
 
-    
-
     return (
         <div>
             hello
